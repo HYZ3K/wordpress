@@ -21,3 +21,15 @@ cd wordpress
 ```
 sudo docker-compose up
 ```
+
+
+For Moving Docker Files To (/var/www/html):
+We Need CONTAINER_ID Of Wordpress:
+
+```
+sudo docker ps -a 
+```
+
+```
+sudo docker exec -it $containerid bash
+```
